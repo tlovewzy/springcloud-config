@@ -6,7 +6,7 @@ spring:
 server:
   port: 10002
 spring:
-  profile: dev
+  profiles: dev
   application:
     name: springcloud-provider-dept
 eureka:
@@ -17,7 +17,7 @@ eureka:
 server:
   port: 10003
 spring:
-  profile: test
+  profiles: test
   application:
     name: springcloud-provider-dept
 eureka:
@@ -28,10 +28,11 @@ eureka:
 server:
   port: 10004
 spring:
-  profile: build
+  profiles: build
   application:
     name: springcloud-provider-dept
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/
+---
