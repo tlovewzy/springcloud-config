@@ -1,11 +1,11 @@
 spring:
-  profiles: 
+  profiles:
     active: dev_10002
 ---
-server: 
+server:
   port: 10002
 spring:
-  profiles: dev_10002
+  profile: dev_10002
   application:
     name: springcloud-provider-dept
 eureka:
@@ -13,10 +13,10 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/
 ---
-server: 
+server:
   port: 1000
 spring:
-  profiles: test
+  profile: test
   application:
     name: springcloud-provider-dept
 eureka:
