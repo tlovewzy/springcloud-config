@@ -16,7 +16,7 @@ eureka:
 server:
   port: 10003
 spring:
-  profile: test
+  profile: dev_10003
   application:
     name: springcloud-provider-dept
 eureka:
