@@ -4,7 +4,8 @@ server:
 spring:
   config:
     activate:
-      on-profile: "build"
+      on-profile:
+      - build
   application:
     name: springcloud-provider-dept
 eureka:
@@ -17,7 +18,8 @@ server:
 spring:
   config:
     activate:
-      on-profile: "test"
+      on-profile:
+      - test
   application:
     name: springcloud-provider-dept
 eureka:
@@ -30,7 +32,8 @@ server:
 spring:
   config:
     activate:
-      on-profile: "dev"
+      on-profile:
+      - dev
   application:
     name: springcloud-provider-dept
 eureka:
