@@ -1,11 +1,11 @@
 spring:
   profiles: 
-    active: dev-10002
+    active: dev_10002
 ---
 server: 
   port: 10002
 spring:
-  profiles: dev-10002
+  profiles: dev_10002
   application:
     name: springcloud-provider-dept
 eureka:
