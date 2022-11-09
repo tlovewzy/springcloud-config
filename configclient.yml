@@ -7,7 +7,7 @@ spring:
       on-profile:
       - build
   application:
-    name: springcloud-provider-dept
+    name: configclient
 eureka:
   client:
     service-url:
@@ -21,7 +21,7 @@ spring:
       on-profile:
       - test
   application:
-    name: springcloud-provider-dept
+    name: configclient
 eureka:
   client:
     service-url:
@@ -35,7 +35,7 @@ spring:
       on-profile:
       - dev
   application:
-    name: springcloud-provider-dept
+    name: configclient
 eureka:
   client:
     service-url:
